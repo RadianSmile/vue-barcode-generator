@@ -27,34 +27,7 @@ npm run build
 
 ## Usage
 
-
-```html
-<!-- index.html -->
-
-<!-- JsBarcode is external dependency. -->
-<script src="https://unpkg.com/jsbarcode@3.11.5/dist/JsBarcode.all.min.js" crossorigin="anonymous"></script>
-```
-
-```vue
-<!-- your.vue -->
-<script lang="ts">
-    import VueBarcodeGenerator from '@radiansmile/vue-barcode-generator';
-</script>
-
-<template>
-    <vue-barcode-generator></vue-barcode-generator>
-</template>
-
-<style lang="scss">
-    // import style sheet if you need.
-    @include "@radiansmile/vue-barcode-generator/dist/style.css"
-</style>
-
-
-```
-## Known issue 
-
-Projects start with latest vite configuration (`$ npm create vite@latest #(3.2.1)`) + TS mode might encounter import problem. And there is not much information in community for this.
+Please check `index.html` & `src/App.vue`
 
 
 ## Browser support
