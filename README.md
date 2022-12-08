@@ -33,11 +33,12 @@ npm run build
 
 <!-- JsBarcode is external dependency. -->
 <script src="https://unpkg.com/jsbarcode@3.11.5/dist/JsBarcode.all.min.js" crossorigin="anonymous"></script>
+```
 
 ```vue
 <!-- your.vue -->
 <script lang="ts">
-    import VueBarcodeGenerator from '@radiansmile/vue-barcode-generator.es.js';
+    import VueBarcodeGenerator from '@radiansmile/vue-barcode-generator';
 </script>
 
 <template>

@@ -2309,7 +2309,7 @@ typeof jQuery < "u" && (jQuery.fn.JsBarcode = function(t, e) {
   }), ne(r, t, e);
 });
 var it = ne;
-const b = (t) => (Ct("data-v-fcca75ac"), t = t(), Gt(), t), wu = { class: "barcode-generator-container" }, mu = /* @__PURE__ */ b(() => /* @__PURE__ */ s("br", null, null, -1)), $u = /* @__PURE__ */ b(() => /* @__PURE__ */ s("br", null, null, -1)), Su = /* @__PURE__ */ b(() => /* @__PURE__ */ s("br", null, null, -1)), xu = /* @__PURE__ */ b(() => /* @__PURE__ */ s("option", { value: "CODE128" }, "Auto Detect", -1)), Au = /* @__PURE__ */ b(() => /* @__PURE__ */ s("option", { value: "CODE128A" }, "CODE128 A", -1)), Ru = /* @__PURE__ */ b(() => /* @__PURE__ */ s("option", { value: "CODE128B" }, "CODE128 B", -1)), Pu = /* @__PURE__ */ b(() => /* @__PURE__ */ s("option", { value: "CODE128C" }, "CODE128 C", -1)), Tu = [
+const b = (t) => (Ct("data-v-8ac6c67e"), t = t(), Gt(), t), wu = { class: "barcode-generator-container" }, mu = /* @__PURE__ */ b(() => /* @__PURE__ */ s("br", null, null, -1)), $u = /* @__PURE__ */ b(() => /* @__PURE__ */ s("br", null, null, -1)), Su = /* @__PURE__ */ b(() => /* @__PURE__ */ s("br", null, null, -1)), xu = /* @__PURE__ */ b(() => /* @__PURE__ */ s("option", { value: "CODE128" }, "Auto Detect", -1)), Au = /* @__PURE__ */ b(() => /* @__PURE__ */ s("option", { value: "CODE128A" }, "CODE128 A", -1)), Ru = /* @__PURE__ */ b(() => /* @__PURE__ */ s("option", { value: "CODE128B" }, "CODE128 B", -1)), Pu = /* @__PURE__ */ b(() => /* @__PURE__ */ s("option", { value: "CODE128C" }, "CODE128 C", -1)), Tu = [
   xu,
   Au,
   Ru,
@@ -2373,7 +2373,7 @@ const Bu = (t, e) => {
   for (const [n, a] of e)
     r[n] = a;
   return r;
-}, Lu = /* @__PURE__ */ Bu(Du, [["__scopeId", "data-v-fcca75ac"]]);
+}, Lu = /* @__PURE__ */ Bu(Du, [["__scopeId", "data-v-8ac6c67e"]]);
 export {
   Lu as VueBarcodeGenerator
 };
