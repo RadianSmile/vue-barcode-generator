@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="barcode-generator-container">
     <img class="barcode-displayer" ref="barcodeDisplayer" /><br />
 
     <br />
@@ -27,9 +27,9 @@
 </template>
 
 <style lang="scss" scoped>
-.test {
-  .test {
-    color: red;
+.barcode-generator-container {
+  * {
+    font-size: 1.5em;
   }
 }
 </style>
