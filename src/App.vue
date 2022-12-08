@@ -9,6 +9,6 @@ import { VueBarcodeGenerator } from "../dist/VueBarcodeGenerator.es.js";
   <VueBarcodeGenerator />
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
 @import "../dist/style.css";
 </style>
