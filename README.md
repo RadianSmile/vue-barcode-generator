@@ -1,7 +1,47 @@
-# Vue 3 + Vite
+# vue-barcode-generator
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Bar code generator for Vue 3, bases on [JsBarcode](https://github.com/lindell/JsBarcode).
 
-## Recommended IDE Setup
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+## Installation
+
+Please clone this repo, then install thie npm package locally. 
+
+```shell
+git clone https://github.com/radiansmile/vue-barcode-generator
+
+cd [your project]
+
+npm install [path/to/vue-barcode-generator]
+``` 
+
+
+## Dev Commands
+
+```shell
+npm run dev 
+npm run build
+```
+
+## Usage
+
+```js
+import { createApp } from 'vue';
+import VueBarcodeGenerator from '@radiansmile/vue-barcode-generator';
+
+const app = createApp({});
+
+app.component(VueBarcodeGenerator.name, VueBarcodeGenerator);
+```
+
+```html
+<vue-barcode-generator></vue-barcode-generator>
+```
+
+## Browser support
+
+Same as Vue 3.
+
+## License
+
+[MIT](https://opensource.org/licenses/MIT) © 
