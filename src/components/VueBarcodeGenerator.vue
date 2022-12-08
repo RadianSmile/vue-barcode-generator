@@ -29,7 +29,7 @@
 <style lang="scss" scoped>
 .barcode-generator-container {
   * {
-    font-size: 1.5em;
+    font-size: 1.5em !important; // use important for demo purpose
   }
 }
 </style>
