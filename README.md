@@ -6,7 +6,7 @@ A sample project showing how to build vue 3 component library with Vite, Vue, an
 
 ## Installation
 
-Please clone this repo, then install thie npm package locally. 
+Please clone this repo, then install this npm package locally. 
 
 ```shell
 git clone https://github.com/radiansmile/vue-barcode-generator
@@ -27,17 +27,6 @@ npm run build
 
 ## Usage
 
-```js
-import { createApp } from 'vue';
-
-
-import VueBarcodeGenerator from '@radiansmile/vue-barcode-generator';
-
-
-const app = createApp({});
-
-app.component(VueBarcodeGenerator.name, VueBarcodeGenerator);
-```
 
 ```html
 <!-- index.html -->
@@ -47,22 +36,24 @@ app.component(VueBarcodeGenerator.name, VueBarcodeGenerator);
 
 ```vue
 <!-- your.vue -->
+<script lang="ts">
+    import VueBarcodeGenerator from '@radiansmile/vue-barcode-generator.es.js';
+</script>
 
 <template>
     <vue-barcode-generator></vue-barcode-generator>
 </template>
 
 <style lang="scss">
-    // import my css if you need.
-    import "@radiansmile/vue-barcode-generator/dist/style.css"
+    // import style sheet if you need.
+    @include "@radiansmile/vue-barcode-generator/dist/style.css"
 </style>
 
 
 ```
 ## Known issue 
 
-Projects start with latest vite configuration (`$ npm create vite@latest #(3.2.1)
-`) + TS mode might encounter import problem. And there is not much information in community for this.
+Projects start with latest vite configuration (`$ npm create vite@latest #(3.2.1)`) + TS mode might encounter import problem. And there is not much information in community for this.
 
 
 ## Browser support
